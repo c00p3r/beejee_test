@@ -1,0 +1,25 @@
+{
+    "name": "c00p3r/beejee_test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "igroko",
+            "email": "c00p3r.web@gmail.com"
+        }
+    ],
+    "require": {
+        "gargron/fileupload": "^1.4",
+        "morris/lessql": "^0.3.4",
+        "eventviva/php-image-resize": "^1.6",
+        "nojacko/email-validator": "^1.1",
+        "vlucas/phpdotenv": "^2.4",
+        "klein/klein": "^2.1",
+        "Modularr/Flexible-PHP-Pagination": "^2.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    }
+}
